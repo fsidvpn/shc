@@ -1,0 +1,353 @@
+Bot ready.
+Chat «FSID VPN»: running command «addssh»
+Chat «FSID VPN»: running command «running»
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185726, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185726, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185726, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+       at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+       at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+       at IncomingMessage.emit (events.js:203:15)
+       at endReadableNT (_stream_readable.js:1145:12)
+       at process._tickCallback (internal/process/next_tick.js:63:19)
+     method: 'getUpdates',
+     parameters: { offset: 854185726, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185726, timeout: 600 }' } }
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185727, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185727, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185727, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+       at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+       at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+       at IncomingMessage.emit (events.js:203:15)
+       at endReadableNT (_stream_readable.js:1145:12)
+       at process._tickCallback (internal/process/next_tick.js:63:19)
+     method: 'getUpdates',
+     parameters: { offset: 854185727, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185727, timeout: 600 }' } }
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185727, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185727, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185727, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10)
+     method: 'getUpdates',
+     parameters: { offset: 854185727, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185727, timeout: 600 }' } }
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185727, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185727, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185727, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10)
+     method: 'getUpdates',
+     parameters: { offset: 854185727, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185727, timeout: 600 }' } }
+Chat «FSID VPN»: running command «ssh»
+Chat «FSID VPN»: running command «ssh»
+Chat «FSID VPN»: running command «ssh»
+Chat «FSID VPN»: running command «t»
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185747, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185747, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185747, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+       at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+       at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+       at IncomingMessage.emit (events.js:203:15)
+       at endReadableNT (_stream_readable.js:1145:12)
+       at process._tickCallback (internal/process/next_tick.js:63:19)
+     method: 'getUpdates',
+     parameters: { offset: 854185747, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185747, timeout: 600 }' } }
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185748, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185748, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185748, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+       at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+       at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+       at IncomingMessage.emit (events.js:203:15)
+       at endReadableNT (_stream_readable.js:1145:12)
+       at process._tickCallback (internal/process/next_tick.js:63:19)
+     method: 'getUpdates',
+     parameters: { offset: 854185748, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185748, timeout: 600 }' } }
+Chat «FSID VPN»: running command «t»
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185749, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185749, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185749, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at Bot.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:219:20)
+       at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:157:25)
+       at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+       at IncomingMessage.emit (events.js:203:15)
+       at endReadableNT (_stream_readable.js:1145:12)
+       at process._tickCallback (internal/process/next_tick.js:63:19)
+     method: 'getUpdates',
+     parameters: { offset: 854185749, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185749, timeout: 600 }' } }
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185749, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185749, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185749, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10)
+     method: 'getUpdates',
+     parameters: { offset: 854185749, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185749, timeout: 600 }' } }
+Error when updating: { TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)
+    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)
+    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+When calling method getUpdates: { offset: 854185749, timeout: 600 }
+    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'TelegramError',
+  stack:
+   'TelegramError: getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running\n    at new TelegramError (/root/shell-bot/node_modules/botgram/lib/bot.js:41:20)\n    at handleBody (/root/shell-bot/node_modules/botgram/lib/bot.js:158:8)\n    at IncomingMessage.<anonymous> (/root/shell-bot/node_modules/botgram/lib/bot.js:146:33)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\nWhen calling method getUpdates: { offset: 854185749, timeout: 600 }\n    at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)\n    at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)',
+  message:
+   'getUpdates failed: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
+  err:
+   { ok: false,
+     error_code: 409,
+     description:
+      'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running' },
+  req:
+   { Error: When calling method getUpdates: { offset: 854185749, timeout: 600 }
+       at Bot.callMethod (/root/shell-bot/node_modules/botgram/lib/bot.js:102:18)
+       at Bot.consumeUpdates (/root/shell-bot/node_modules/botgram/lib/bot.js:201:8)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10)
+     method: 'getUpdates',
+     parameters: { offset: 854185749, timeout: 600 },
+     message:
+      'When calling method getUpdates: { offset: 854185749, timeout: 600 }' } }
+Chat «FSID VPN»: running command «ssh»

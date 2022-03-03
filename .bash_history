@@ -1,0 +1,1 @@
+apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && apt install figlet -y && apt install lolcat -y && gem install lolcat && apt install curl -y && source <(curl -sL https://raw.githubusercontent.com/fsidvpn/gaspoll/main/autosc)
